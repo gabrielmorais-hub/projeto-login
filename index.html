@@ -19,21 +19,21 @@
                 <p>
                     Seja bem vindo(a) de novamente. Faça login para acessar sua conta e fazer as configurações do seu ambiente.
                 </p>
-                <!--<form action="login.php" method="post">
+                <form action="login.php" method="post" autocomplete="on">
                     <div class="campo">
                         <label for="iemail">
                         <i class="material-icons">person</i></label>
-                        <input type="text" name="email" id="iemail" required maxlength="30" placeholder="seu e-mail">
+                        <input type="text" name="email" id="iemail" required maxlength="30" placeholder="seu e-mail" autocomplete="email">
                     </div>
                     <div class="campo">
-                        <label for="isenha"><i class="material-icons">vpn-key</i></label>
-                        <input type="password" name="senha" id="isenha" required min="8" maxlength="30" placeholder="sua senha">
+                        <label for="isenha"><i class="material-icons">vpn_key</i></label>
+                        <input type="password" name="senha" id="isenha" required min-length="8" maxlength="30" placeholder="sua senha" autocomplete="current-password">
                     </div>
                     <div>
                         <input type="submit" value="Entrar"> <br>
-                        <input type="button" value="Esqueci minha senha">
+                        <a href="esqueci.html">Esqueci a senha <i class="material-icons">mail</i></a>
                     </div>
-                </form>-->
+                </form>
             </div>
         </section>
     </main>
